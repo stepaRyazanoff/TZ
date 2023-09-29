@@ -1,0 +1,44 @@
+.navbar {
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 400px 400px;
+	grid-template-rows: 260px 260px 260px 260px;
+	gap: 70px 70px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navbarBackground {
+	background: #56698f;
+}
+
+.navbarBackground2 {
+	background: #ffffff;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.item_1,
+.item_2 {
+	grid-row: 2/3;
+}
+
+.item_3,
+.item_4 {
+	grid-row: 3/4;
+}
+
+.navbar > div {
+	box-shadow: 0px 4px 6px -1px #232c3b;
+	border-radius: 4px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 30px;
+	color: white;
+	background: #ef7f1a;
+}

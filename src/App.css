@@ -1,0 +1,19 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 600px 1320px;
+	grid-template-rows: 1080px;
+}
+
+.loginBackground .wrapper a {
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+.loginBackground2 .wrapper a {
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}

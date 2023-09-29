@@ -1,0 +1,22 @@
+.main {
+	text-align: start;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.header {
+	font-size: 27px;
+}
+
+.dateOfBirth {
+	font-size: 22px;
+}
+
+.table {
+	font-size: 15px;
+}
+
+.specialization {
+	font-size: 15px;
+	line-height: 15px;
+}
